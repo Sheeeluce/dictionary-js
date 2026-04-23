@@ -1,5 +1,5 @@
 async function searchWord() {
-    const input = document.getElementById("searchInput").ariaValueMax.trim();
+    const input = document.getElementById("searchInput").value.trim();
     const resultBox = document.getElementById("searchResult");
 
     if (!input) {
